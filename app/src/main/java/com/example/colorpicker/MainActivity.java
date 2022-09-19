@@ -65,7 +65,11 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
 
         }
 
+        //color.setBackgroundColor(Color.rgb(s_red.getProgress(),s_green.getProgress(),s_blue.getProgress()));
+
         color.setBackgroundColor(Color.rgb(piros,zold,kek));
+        szoveg=String.format("%d,%d,%d",piros,zold,kek);
+        color.setText(szoveg);
 
     }
 
